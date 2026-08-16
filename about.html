@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YANTRAM - MESA</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&family=Michroma&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS v4 CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- Tailwind Theme Configuration -->
+    <style type="text/tailwindcss">
+        @theme {
+            --color-nero: #0A0A0A;
+            --color-charcoal: #121212;
+            --color-arancio: #E31E24;
+            --color-silver: #CCCCCC;
+            --font-space: "Space Grotesk", sans-serif;
+            --font-inter: "Inter", sans-serif;
+            --font-michroma: "Michroma", sans-serif;
+        }
+    </style>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-nero text-white font-inter selection:bg-arancio selection:text-white">
+
+    <!-- Navigation -->
+    <header id="navbar"
+        class="fixed top-0 w-full z-50 transition-all duration-300 bg-transparent border-b border-transparent">
+        <div class="w-full px-4 md:px-8 h-20 md:h-24 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="index.html"
+                    class="flex items-center text-xl md:text-2xl font-michroma font-bold text-white transition-colors group [-webkit-text-stroke:1px_white]">
+                    <img src="assets/images/white%20Yantram%20logo%20.png" alt="Yantram Logo"
+                        class="h-10 md:h-16 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity mr-3 md:mr-4">
+                    <span class="group-hover:text-arancio transition-colors leading-none pt-1">YANTRAM<span
+                            class="text-arancio"> - MESA</span></span>
+                    <img src="assets/images/MESA%20White%20Logo.png" alt="MESA Logo"
+                        class="h-10 md:h-16 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity ml-1 md:-ml-1">
+                </a>
+                <a href="https://bvcoenm.edu.in/" target="_blank" rel="noopener noreferrer" class="flex items-center">
+                    <img src="assets/images/Bharati_logo_clg.png" alt="Bharati Logo"
+                        class="h-20 md:h-28 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity ml-4 md:ml-8 border-l border-white/20 pl-4 md:pl-8">
+                </a>
+            </div>
+
+            <nav class="hidden md:flex gap-8 items-center">
+                <a href="index.html"
+                    class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Home</a>
+                <a href="about.html"
+                    class="nav-link text-sm font-semibold tracking-widest transition-colors uppercase text-arancio border border-arancio shadow-[0_0_10px_rgba(227,30,36,0.6)] px-4 py-2 rounded-md">About
+                    Us</a>
+                <a href="team.html"
+                    class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Meet
+                    Our Team</a>
+                <a href="events.html"
+                    class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Events</a>
+                <a href="sponsors.html"
+                    class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Sponsors</a>
+                <a href="#contact"
+                    class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Contact
+                    Us</a>
+            </nav>
+
+            <button class="md:hidden text-white hover:text-arancio" aria-label="Toggle Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Hero Section -->
+        <section id="about-hero" class="relative min-h-[100svh] w-full overflow-hidden bg-nero flex items-center justify-center">
+            <img src="assets/images/history_flow/History%20main%20photo.jpg" alt="MESA History" class="absolute inset-0 w-full h-full object-cover z-0">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-nero z-10"></div>
+            
+            <div class="relative z-20 flex flex-col items-center px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-michroma font-bold text-white mb-6 drop-shadow-xl uppercase tracking-wider">Our Legacy</h1>
+                <p class="text-gray-300 font-inter text-lg md:text-xl max-w-2xl mb-12">Discover the journey of MESA from its genesis to the biggest Auto Expo.</p>
+                <a href="#about" class="text-white hover:text-arancio transition-colors animate-bounce">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- 3. Our History (About) Section -->
+        <section id="about" class="w-full bg-nero py-24 min-h-screen border-t border-white/5 relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-6 md:px-16">
+                <h2 class="text-4xl md:text-5xl font-michroma font-normal text-white mb-20 tracking-wide text-center uppercase">
+                    Our History
+                </h2>
+                <div class="relative w-full max-w-7xl mx-auto">
+                    <!-- Mobile center line -->
+                    <div class="absolute left-4 md:left-1/2 top-0 bottom-0 border-l-2 border-dashed border-gray-600 block md:hidden z-0"></div>
+
+                    <!-- 2016-2017: Left -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 left-1/2 w-1/2 h-full border-t-2 border-r-2 border-dashed border-arancio hidden md:block" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="w-full md:w-1/2 md:pr-16 relative z-10 py-8 pl-12 md:pl-0">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+                            
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 right-0 w-4 h-4 rounded-full bg-arancio transform translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2016-2017</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">The Genesis & Official Identity</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2016-2017.jpg" alt="2016-2017" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2016–2017 academic year marked a defining milestone for our association with the official unveiling of the YANTRAM - MESA logo. Setting a high benchmark for campus events, we inaugurated Yantram 2K17 with renowned digital creator and influencer Prajakta Koli (@Mostlysane) joining us as the Chief Guest. Her presence energized the grand launch, establishing YANTRAM as a flagship technical and automotive platform at BVCOE.</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block md:w-1/2"></div>
+                    </div>
+
+                    <!-- 2017-2018: Right -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 right-1/2 w-1/2 h-full border-t-2 border-l-2 border-dashed border-arancio hidden md:block" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="hidden md:block md:w-1/2"></div>
+                        <div class="w-full md:w-1/2 md:pl-16 relative z-10 py-8 pl-12 md:pl-16">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 left-0 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2017-2018</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">A Massive Leap Forward & The First Auto Expo</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2017-2018.jpg" alt="2017-2018" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2017–2018 academic year marked a massive leap forward for YANTRAM. The event was inaugurated by Guest of Honour Prasad Vedpathak (Ur Indian Consumer), a proud 2012 Mechanical Engineering alumnus who returned to campus to launch the fest. Centered on an "ISRO" theme, the department featured interactive space exhibits, student rocket models, and an expert-led technical seminar. The year also witnessed the grand debut of the campus Auto Expo, inaugurated by India's first female MotoVlogger, Rider Girl Vishakha, featuring exotic cars like the Ford Mustang GT and over 400 super-bikes. Beyond technical showcases, the committee extended its impact through community drives, including a Women's Day police felicitation and a donation visit to Navnihal Balikaashram Gruh.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2018-2019: Left -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 left-1/2 w-1/2 h-full border-t-2 border-r-2 border-dashed border-arancio hidden md:block" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="w-full md:w-1/2 md:pr-16 relative z-10 py-8 pl-12 md:pl-0">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+                            
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 right-0 w-4 h-4 rounded-full bg-arancio transform translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2018-2019</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">Electro-Atomic Vision & Auto Expo Scaling</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2018-2019.jpg" alt="2018-2019" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2018–2019 academic year saw YANTRAM scale up dramatically, placing its primary spotlight on an expanded, high-octane Auto Expo 2K19. The flagship showcase was inaugurated by automotive designer and popular moto-vlogger <b>Shariq V</b>, drawing a record crowd of over 1,200 enthusiasts to campus. The expo featured a massive lineup of tuned vehicles and super-bikes, highlighted by a modified BMW E4, a vintage Maruti 800, custom Harley-Davidsons, and heavy-hitting performance machines like the Benelli TNT 600i (<i>Doomzday</i>), Ducati Diavel, BMW F 750 GS, and Kawasaki Ninja ZX-10R. Beyond the track and expo floor, the fest ran under the theme of "Atomic Energy"—featuring nuclear plant models and dual timeline exhibits—alongside social drives at <i>Girija Welfare Association</i> and <i>Jeevan Jyoti Ashram</i>.</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block md:w-1/2"></div>
+                    </div>
+
+                    <!-- 2019-2020: Right -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 right-1/2 w-1/2 h-full border-t-2 border-l-2 border-dashed border-arancio hidden md:block" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="hidden md:block md:w-1/2"></div>
+                        <div class="w-full md:w-1/2 md:pl-16 relative z-10 py-8 pl-12 md:pl-16">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 left-0 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2019-2020</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">Biomimetic Engineering & Auto Expo Showcase</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2019-2020.jpg" alt="2019-2020" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2019–2020 academic year saw MESA deliver one of its most high-powered Auto Expo events to date, alongside exploring the theme of "Biomimetic" technology. The grand festival was inaugurated by Guest of Honour and television/film actress <b>Aishwarya Pawar</b>, accompanied by a festive Dhol Tasha performance in the campus quadrangle. The main attraction, Auto Expo 2020, was headlined by Chief Guest <b>Oggy F</b>—a renowned moto-vlogger, automotive reviewer, and road safety advocate with over 152k subscribers. The expo drew a massive crowd of 1,200+ students and enthusiasts who gathered to witness an extreme lineup of vehicles. Featured displays included custom-built Honda Accords, amplified boom-box Suzuki Swifts, modified off-road Jeeps, and a lineup of super-bikes featuring the BMW S1000RR, Benelli TNT 600, Ducati Diavel, Kawasaki Ninja ZX-10R, and custom Harley-Davidsons. Grounded in community welfare, MESA also conducted outreach visits to <i>Mother Teresa's Jeevan Jyoti Ashram</i>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2021-2022: Left -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 left-1/2 w-1/2 h-full border-t-2 border-r-2 border-dashed border-arancio hidden md:block" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="w-full md:w-1/2 md:pr-16 relative z-10 py-8 pl-12 md:pl-0">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+                            
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 right-0 w-4 h-4 rounded-full bg-arancio transform translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2021-2022</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">Post-Lockdown Revival & Grand Auto Expo Return</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2021-2022.jpg" alt="2021-2022" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2021–2022 academic year marked a roaring return to live campus events with MESA's flagship <b>Auto Expo 2022</b>, inaugurated by Guest of Honour <b>Dr. Vilasrao J. Kadam</b>. The marquee showcase featured an impressive lineup of <b>23 modified cars and 80 super-bikes</b>, highlighted by a custom Honda Accord, Ford Mustang, Jeep Thar, <b>Kawasaki Ninja H2, Suzuki Hayabusa, BMW S1000RR</b>, and <b>Ducati Diavel</b>. The event also featured a vintage-themed road safety alley, custom photobooths, and a social outreach drive supporting the <i>Prerna Welfare Association Girl Child Orphanage</i>.</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block md:w-1/2"></div>
+                    </div>
+
+                    <!-- 2022-2023: Right -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 right-1/2 w-1/2 h-full border-t-2 border-l-2 border-dashed border-arancio hidden md:block" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="hidden md:block md:w-1/2"></div>
+                        <div class="w-full md:w-1/2 md:pl-16 relative z-10 py-8 pl-12 md:pl-16">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 left-0 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2022-2023</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">Record-Breaking Auto Expo & Academic Milestone</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2022-2023.jpg" alt="2022-2023" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2022–2023 academic year marked the biggest milestone in MESA's history, headline-driven by the 8th edition of <b>AutoExpo 2023</b>—their largest showcase yet. Inaugurated by College Director <b>Dr. V. J. Kadam</b>, the festival expanded to feature <b>30+ supercars and modified cars alongside 150+ performance bikes</b>, centered around the iconic <b>Ford Mustang GT 5.0</b> and thrilling professional stunt performances. Beyond the automotive spectacle, the Mechanical Engineering Department achieved prestigious <b>National Board of Accreditation (NBA) accreditation</b>. The year also included a mock placement drive, a pre-placement seminar on market recession with TCR Innovations, an MBA exploratory visit to ICFAI Business School, and active participation in ISHRAE and Formula SAE initiatives.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2023-2024: Left -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 left-1/2 w-1/2 h-full border-t-2 border-r-2 border-dashed border-arancio hidden md:block" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="w-full md:w-1/2 md:pr-16 relative z-10 py-8 pl-12 md:pl-0">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+                            
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 right-0 w-4 h-4 rounded-full bg-arancio transform translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2023-2024</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">Advanced Tech Expansion & Nissan GTR Showcase</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2023-2024.jpg" alt="2023-2024" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2023–2024 academic year was highlighted by MESA's inauguration of the <b>Advanced Manufacturing Lab</b> equipped with CNC machines and 3D printers. The main attraction, <b>Auto Expo 2024</b> (sponsored by Royal Enfield), drew massive crowds with stunt displays and featured guest <b>Imran Majid</b> alongside his <b>Nissan GTR</b>, displayed alongside an Audi R8, BMW M2, Maybach, and super-bikes. The festival concluded with an evening DJ success party. On the technical front, MESA hosted YANTRAM '24, the "CAD War", a Treasure Hunt, and industry seminars covering Piping Design, CAD Modeling, and Study Abroad programs.</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block md:w-1/2"></div>
+                    </div>
+
+                    <!-- 2024-2025: Right -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 right-1/2 w-1/2 h-full border-t-2 border-l-2 border-dashed border-arancio hidden md:block" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="hidden md:block md:w-1/2"></div>
+                        <div class="w-full md:w-1/2 md:pl-16 relative z-10 py-8 pl-12 md:pl-16">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 left-0 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2024-2025</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">Grand Auto Expo '25 & Advanced Technical Initiatives</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2024-2025.jpg" alt="2024-2025" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2024–2025 academic year was highlighted by <b>Auto Expo 2025</b>, inaugurated on founder Dr. Patangrao Kadam's birth anniversary by Dr. Vilas Kadam, Panvel RTO Prithviraj Kakade, and Reliance HR Subhash Jain. The event featured an impressive lineup including a <b>Lexus ES, Nissan GTR, Audi R8, BMW M2, Mercedes-Maybach, and super-bikes</b>, alongside live stunts and a DJ success party. Key technical and social events included an Inter-College CAD Competition, CADD Centre SolidWorks workshops, a Sarasgad Fort restoration trek, Japanese Management training, and Study Abroad seminars with IMFS.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2025-2026: Left -->
+                    <div class="flex flex-col md:flex-row w-full relative group">
+                        <!-- Connecting Line -->
+                        <div class="absolute top-1/2 left-1/2 w-1/2 h-full border-t-2 border-r-2 border-dashed border-arancio hidden" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px; transform: translateY(-2px); z-index: 0;"></div>
+                        
+                        <div class="w-full md:w-1/2 md:pr-16 relative z-10 py-8 pl-12 md:pl-0">
+                            <!-- Mobile Dot -->
+                            <div class="absolute top-1/2 left-4 w-4 h-4 rounded-full bg-arancio transform -translate-x-1/2 -translate-y-1/2 block md:hidden z-20 shadow-[0_0_10px_#E31E24]"></div>
+                            
+                            <!-- Desktop Dot -->
+                            <div class="absolute top-1/2 right-0 w-4 h-4 rounded-full bg-arancio transform translate-x-1/2 -translate-y-1/2 hidden md:block z-20 shadow-[0_0_10px_#E31E24]"></div>
+
+                            <div class="bg-charcoal border border-white/10 p-6 hover:border-arancio transition-colors shadow-lg">
+                                <h3 class="text-3xl font-michroma text-arancio mb-2">2025-2026</h3>
+                                <h4 class="text-xl font-michroma text-white mb-4">Seamless Execution & Record Vehicle Turnout</h4>
+                                <div class="w-full bg-black/30 mb-6 flex items-center justify-center border border-white/5 overflow-hidden rounded-md min-h-[300px] p-2">
+                                    <img src="assets/images/history_flow/2025-2026.jpg" alt="2025-2026" class="w-full h-auto max-h-[500px] object-contain transition-all duration-500 hover:scale-105">
+                                </div>
+                                <p class="text-gray-400 font-inter text-base leading-relaxed">The 2025–2026 academic year marked another stellar milestone for MESA, highlighted by one of the smoothest, most seamlessly executed Auto Expo events in the committee's history. Building on years of legacy, this edition saw a massive surge in participation, with a noticeably higher count of vehicles and an incredible lineup of brand-new, exotic cars and high-performance super-bikes hitting the campus grounds. With flawless crowd management, precise scheduling, and an electric atmosphere, MESA successfully raised the bar once again, delivering an unforgettable experience for automotive enthusiasts and cementing the expo's reputation as the premier collegiate motoring festival.</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block md:w-1/2"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. Footer & Contact Section -->
+    <footer id="contact" class="bg-charcoal border-t border-arancio pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+
+                <!-- Column 1: Address -->
+                <div>
+                    <h3 class="text-xl font-space font-bold tracking-widest uppercase mb-6 text-white">Visit Us</h3>
+                    <div class="text-gray-400 leading-relaxed font-light">
+                        <p>Bharati Vidyapeeth's College of Engineering,</p>
+                        <p>CBD, Belapur, Sector -7,</p>
+                        <p>Navi Mumbai,</p>
+                        <p>Maharashtra, India - 400614.</p>
+                    </div>
+                </div>
+
+                <!-- Column 2: Contact Form -->
+                <div>
+                    <h3
+                        class="text-xl font-space font-bold tracking-widest uppercase mb-6 text-white border-l-4 border-arancio pl-3">
+                        Get In Touch</h3>
+                    <form class="space-y-4" onsubmit="event.preventDefault();">
+                        <div>
+                            <input type="text" placeholder="NAME"
+                                class="w-full bg-nero border border-white/10 text-white px-4 py-3 font-space text-sm tracking-wide focus:outline-none focus:border-arancio transition-colors placeholder:text-gray-600 rounded-none">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="EMAIL ADDRESS"
+                                class="w-full bg-nero border border-white/10 text-white px-4 py-3 font-space text-sm tracking-wide focus:outline-none focus:border-arancio transition-colors placeholder:text-gray-600 rounded-none">
+                        </div>
+                        <div>
+                            <textarea placeholder="MESSAGE" rows="3"
+                                class="w-full bg-nero border border-white/10 text-white px-4 py-3 font-space text-sm tracking-wide focus:outline-none focus:border-arancio transition-colors placeholder:text-gray-600 rounded-none resize-none"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="bg-arancio text-white font-space font-bold tracking-widest text-sm px-8 py-3 w-full uppercase hover:bg-white hover:text-black transition-colors duration-300 rounded-none">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Column 3: Google Maps -->
+                <div class="h-64 md:h-auto relative group">
+                    <!-- Overlay link to make the entire map clickable -->
+                    <a href="https://maps.app.goo.gl/ehLp4Fic8Xi52A4Y6" target="_blank" rel="noopener noreferrer" class="absolute inset-0 z-10 cursor-pointer" aria-label="Open location in Google Maps"></a>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.8037326442654!2d73.0546768!3d19.0268299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3004fe3cef7%3A0x4790181334f45d2d!2sMESA%20HEADQUATERS%20BVCOE!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                        class="w-full h-full border border-gray-800 rounded-none grayscale group-hover:grayscale-0 transition-all duration-500"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+
+            <!-- Bottom Row -->
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm font-space tracking-wide">
+                    &copy; 2026 YANTRAM - MESA. All Rights Reserved.
+                </p>
+                <div class="flex gap-6">
+                    <a href="https://www.instagram.com/yantram_mech?igsh=NXlwcTN1bTA4YTdp" target="_blank"
+                        rel="noopener noreferrer" class="text-gray-500 hover:text-arancio transition-colors">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/yantram-bvcoe/" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-500 hover:text-arancio transition-colors">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@MESA_AutoExpo" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-500 hover:text-arancio transition-colors">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js" type="module"></script>
+    <script src="js/timeline.js" type="module"></script>
+    <script src="js/marquee.js" type="module"></script>
+</body>
+
+</html>

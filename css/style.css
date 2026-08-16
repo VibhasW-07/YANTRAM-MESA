@@ -1,0 +1,143 @@
+/* Custom Stylesheet for YANTRAM - MESA */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --color-nero: #0A0A0A;
+  --color-charcoal: #121212;
+  --color-arancio: #E31E24;
+  --color-silver: #CCCCCC;
+}
+
+body {
+  background-color: var(--color-nero);
+  color: white;
+}
+
+/* Hide scrollbar for tabs but keep functionality */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom Webkit Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-nero);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 0px; /* SHARP EDGES */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-arancio);
+}
+
+/* Image Grayscale Hover Effects (ORI Style) */
+.custom-grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease-out, transform 0.5s ease-out;
+}
+.group:hover .custom-grayscale,
+.custom-grayscale:hover {
+  filter: grayscale(0%);
+}
+
+/* Sponsor Marquee Animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); } /* Scrolls exactly half to loop seamlessly */
+}
+
+.marquee-content {
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+.sponsor-logo {
+  transition: all 0.3s ease;
+}
+
+.sponsor-logo:hover {
+  transform: scale(1.05);
+}
+
+/* Timeline Cards */
+.timeline-card {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Video grayscale tweak */
+.grayscale-video {
+  filter: grayscale(80%) contrast(120%);
+}
+
+/* Subtle Dark Grid Background */
+.bg-subtle-dark {
+  background-color: var(--color-nero);
+  background-image: 
+    radial-gradient(circle at center, rgba(227, 30, 36, 0.03) 0%, transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 30px 30px, 30px 30px;
+  background-position: center center, center center, center center;
+}
+
+/* Faded Depth Effect (Vibin) */
+.bg-vibe-depth {
+  background-color: var(--color-nero);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bg-vibe-depth::before,
+.bg-vibe-depth::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px); /* Heavy blur for that faded depth */
+  z-index: -1;
+  animation: float 15s infinite ease-in-out alternate;
+}
+
+/* Top left faded color */
+.bg-vibe-depth::before {
+  background: rgba(227, 30, 36, 0.15); /* Faded Arancio red */
+  width: 50vw;
+  height: 50vw;
+  top: -20%;
+  left: -10%;
+}
+
+/* Bottom right faded color */
+.bg-vibe-depth::after {
+  background: rgba(227, 30, 36, 0.12); /* Faded Arancio red for the right side */
+  width: 60vw;
+  height: 60vw;
+  bottom: -10%;
+  right: -20%;
+  animation-delay: -7s;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(5%, 10%) scale(1.1);
+  }
+}

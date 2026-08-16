@@ -1,0 +1,52 @@
+[
+  {
+    "year": "2016-2017",
+    "title": "The Genesis & Official Identity",
+    "description": "The 2016–2017 academic year marked a defining milestone for our association with the official unveiling of the YANTRAM - MESA logo. Setting a high benchmark for campus events, we inaugurated Yantram 2K17 with renowned digital creator and influencer Prajakta Koli (@Mostlysane) joining us as the Chief Guest. Her presence energized the grand launch, establishing YANTRAM as a flagship technical and automotive platform at BVCOE.",
+    "metrics": {
+      "members": "50+",
+      "events": "2"
+    },
+    "image": "assets/images/history_flow/2016-2017.jpg"
+  },
+  {
+    "year": "2018-2019",
+    "title": "Expansion",
+    "description": "Introduction of the first conceptual Auto Expo, bringing local automobile enthusiasts together.",
+    "metrics": {
+      "footfall": "500+",
+      "vehicles": "30+"
+    },
+    "image": "assets/images/history_flow/2018-2019.jpg"
+  },
+  {
+    "year": "2021-2022",
+    "title": "Digital Pivot",
+    "description": "Adapted to the pandemic with virtual design workshops and online CAD competitions, keeping the culture alive.",
+    "metrics": {
+      "participants": "1000+",
+      "workshops": "5"
+    },
+    "image": "assets/images/history_flow/2021-2022.jpg"
+  },
+  {
+    "year": "2023-2024",
+    "title": "Supercar Era",
+    "description": "The Auto Expo witnessed a massive upgrade with the inclusion of 600cc+ superbikes and visually tuned supercars.",
+    "metrics": {
+      "bikers": "400+",
+      "cars": "80+"
+    },
+    "image": "assets/images/history_flow/2023-2024.jpg"
+  },
+  {
+    "year": "2026-2027",
+    "title": "Decade of Horsepower",
+    "description": "Celebrating the 10th edition. MESA hosts the biggest Auto Expo in Mumbai and MMR region, setting a new benchmark.",
+    "metrics": {
+      "footfall": "3000+",
+      "exhibitors": "150+"
+    },
+    "image": "assets/images/history_flow/2026-2027.jpg"
+  }
+]

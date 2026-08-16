@@ -1,0 +1,113 @@
+{
+  "2025-26": {
+    "core": [
+      { "role": "Vice President", "name": "Neeraj Sawant", "image": "assets/images/halloffame%202025-2026/Neeraj%20Sawant%20Vice%20President.JPG" },
+      { "role": "President", "name": "Karanje Pranay", "image": "assets/images/halloffame%202025-2026/Pranay%20Karanje%20President.JPG" },
+      { "role": "Treasurer", "name": "Prem Juvatkar", "image": "assets/images/halloffame%202025-2026/Prem%20Juvatkar%20Treasurer.JPG" }
+    ],
+    "departments": [
+      { "role": "Cultural Head", "name": "Tushar Dongare", "image": "assets/images/halloffame%202025-2026/Tushar%20Dongare%20Cultural%20Head.JPG" },
+      { "role": "Technical Head", "name": "Swastik Salunkhe", "image": "assets/images/halloffame%202025-2026/Swastik%20Salunkhe%20Technical%20Head.JPG" },
+      { "role": "Marketing Head", "name": "Kunal Lawande", "image": "assets/images/halloffame%202025-2026/Kunal%20Lawande%20Marketing%20Head.JPG" },
+      { "role": "Marketing Head", "name": "Aditya Tambe", "image": "assets/images/halloffame%202025-2026/Aditya%20Tambe%20Marketing%20Head.jpeg" },
+      { "role": "Marketing Head", "name": "Tanvi Yendhe", "image": "assets/images/halloffame%202025-2026/Tanvi%20Yendhe%20Marketing%20Head.jpeg" },
+      { "role": "Sports Head (M)", "name": "Vedant Patil", "image": "assets/images/halloffame%202025-2026/Vedant%20Patil%20Sports%20Head.JPG" },
+      { "role": "Sports Head (F)", "name": "Siddhi Mali", "image": "assets/images/halloffame%202025-2026/Siddhi%20Mali%20Sports%20Head%20(F).JPG" },
+      { "role": "PR Head", "name": "Aniruddh Patil", "image": "assets/images/halloffame%202025-2026/Aniruddh%20Patil%20PR%20Head.JPG" },
+      { "role": "Creative Head", "name": "Suraj Khare", "image": "assets/images/halloffame%202025-2026/Suraj%20Khare%20Creative%20Head.JPG" },
+      { "role": "Digital Head", "name": "Rushikesh Devkar", "image": "assets/images/halloffame%202025-2026/Rushikesh%20Devkar%20Digital%20Head.JPG" },
+      { "role": "Camera Head", "name": "Yash Ainpurkar", "image": "assets/images/halloffame%202025-2026/Yash%20Ainpurkar%20Camera%20Head.JPG" },
+      { "role": "Volunteer Head", "name": "Anuj Bhanushali", "image": "assets/images/halloffame%202025-2026/Anuj%20Bhanushali%20Volunteer%20Head.JPG" },
+      { "role": "Stage Head", "name": "Dnyaneshwar Sabade", "image": "assets/images/halloffame%202025-2026/Dnyaneshwar%20Sabade%20Stage%20Head.JPG" }
+    ]
+  },
+  "2024-25": {
+    "core": [
+      { "role": "Vice President", "name": "Nihar Rhatwilkar", "image": "assets/images/halloffame%202024-2025/Vice%20President%20-%20Nihar%20Rhatwilkar.jpg" },
+      { "role": "President", "name": "Rohit Kalekar", "image": "assets/images/halloffame%202024-2025/President%20-%20Rohit%20Kalekar.png" },
+      { "role": "Treasurer", "name": "Raj Lohte", "image": "assets/images/halloffame%202024-2025/Treasurer%20-%20Raj%20Lohte.PNG" }
+    ],
+    "departments": [
+      { "role": "Technical Head", "name": "Prathmesh Gaikwad", "image": "assets/images/halloffame%202024-2025/Technical%20Head%20-%20Prathamesh%20Gaikwad.jpg" },
+      { "role": "Cultural Head", "name": "Aniket Dalvi", "image": "assets/images/halloffame%202024-2025/Cultural%20Head%20-%20Aniket%20Dalvi.jpg" },
+      { "role": "Marketing Head", "name": "Adarsh Hotkar", "image": "assets/images/halloffame%202024-2025/Marketing%20Head%20-%20Adarsh%20Hotkar.jpg" },
+      { "role": "PR Head", "name": "Nauman Mukadam", "image": "assets/images/halloffame%202024-2025/PR%20Head%20-%20Nauman%20Mukadam.jpg" },
+      { "role": "Digital Head", "name": "Pranay Karanje", "image": "assets/images/halloffame%202024-2025/Digital%20Head%20-%20%20Pranay%20Karanje.jpg" },
+      { "role": "Camera Head", "name": "Yash Ainpurkar", "image": "assets/images/halloffame%202024-2025/Camera%20Head%20-%20Yash%20Ainpurkar.jpg" },
+      { "role": "Creative Head", "name": "Vikas Babar", "image": "assets/images/halloffame%202024-2025/Creative%20Head%20-%20Vikas%20Babar.jpg" },
+      { "role": "Sports Head", "name": "Yashraj Kadam", "image": "assets/images/halloffame%202024-2025/Sports%20Head%20-%20Yashraj%20Kadam.jpg" },
+      { "role": "Sports Head (F)", "name": "Anushka Sonawale", "image": "assets/images/halloffame%202024-2025/Sports%20Head%20(F)%20-%20Anushka%20Sonawale.jpg" },
+      { "role": "Sports Head", "name": "Mayuresh Bhoir", "image": "assets/images/halloffame%202024-2025/Sports%20Head%20-%20Mayuresh%20Bhoir.jpg" },
+      { "role": "Volunteer Head", "name": "Manish Borana", "image": "assets/images/halloffame%202024-2025/Volunteer%20Head%20-%20Manish%20Borana.jpg" },
+      { "role": "Stage Head", "name": "Deep Mhatre", "image": "assets/images/halloffame%202024-2025/Stage%20Head%20-%20Deep%20Mhatre.jpg" }
+    ]
+  },
+  "2023-24": {
+    "core": [
+      { "role": "Vice President", "name": "Suyash Nikam", "image": "assets/images/halloffame%202023-2024/Vice%20President%20-%20Suyash%20Nikam.jpg" },
+      { "role": "President", "name": "Mahesh More", "image": "assets/images/halloffame%202023-2024/President%20-%20Mahesh%20More.jpg" },
+      { "role": "Treasurer", "name": "Deepak Omble", "image": "assets/images/halloffame%202023-2024/Treasurer%20-%20Deepak%20Omble.jpg" }
+    ],
+    "departments": [
+      { "role": "Marketing Head", "name": "Meet Gangani", "image": "assets/images/halloffame%202023-2024/Marketing%20Head%20-%20Meet%20Gangani.jpg" },
+      { "role": "Technical Head", "name": "Shubham Mhatre", "image": "assets/images/halloffame%202023-2024/Technical%20Head%20-%20Shubham%20Mhatre.jpg" },
+      { "role": "Cultural Head", "name": "Saumitra Parab", "image": "assets/images/halloffame%202023-2024/Cultural%20Head%20-%20Saumitra%20Parab.jpg" },
+      { "role": "Creative Head", "name": "Vaishnavi Gawde", "image": "assets/images/halloffame%202023-2024/Creative%20Head%20-%20Vaishnavi%20Gawde.jpg" },
+      { "role": "PR Head", "name": "Aditya Tambe", "image": "assets/images/halloffame%202023-2024/PR%20Head%20-%20Aditya%20Tambe.jpg" },
+      { "role": "Camera Head", "name": "Rushikesh Mahajan", "image": "assets/images/halloffame%202023-2024/Camera%20Head%20-%20Rushikesh%20Mahajan.jpg" },
+      { "role": "Literature Head", "name": "Sakshi Bhawar", "image": "assets/images/halloffame%202023-2024/Literature%20Head%20-%20Sakshi%20Bhawar.jpg" },
+      { "role": "Sports Head", "name": "Sanjib Sahu", "image": "assets/images/halloffame%202023-2024/Sports%20Head%20-%20Sanjib%20Sahu.jpg" },
+      { "role": "Sports Head (F)", "name": "Sakshi Rasale", "image": "assets/images/halloffame%202023-2024/Sports%20Head%20(F)%20-%20Sakshi%20Rasale.jpg" }
+    ]
+  },
+  "2022-23": {
+    "core": [
+      { "role": "Vice President", "name": "Saurav Lashkare", "image": "assets/images/halloffame%202022-2023/Vice%20President%20-%20Saurav%20Lashkare.jpg" },
+      { "role": "Vice President", "name": "Rutik Hadpad", "image": "assets/images/halloffame%202022-2023/Vice%20President%20-%20Rutik%20Hadapad.jpg" },
+      { "role": "President", "name": "AdityaRaj Patil", "image": "assets/images/halloffame%202022-2023/President%20-%20AdityaRaj%20Patil.jpg" },
+      { "role": "Vice President", "name": "Sejal Mhatre", "image": "assets/images/halloffame%202022-2023/Vice%20President%20-%20Sejal%20Mhatre.jpg" },
+      { "role": "Treasurer", "name": "Sandesh Ade", "image": "assets/images/halloffame%202022-2023/Treasurer%20-%20Sandesh%20Ade.jpg" }
+    ],
+    "departments": [
+      { "role": "Marketing Head", "name": "Rutuja Bheke", "image": "assets/images/halloffame%202022-2023/Marketing%20Head%20-%20Rutuja%20Bheke.jpg" },
+      { "role": "PR Head", "name": "Juilee Patil", "image": "assets/images/halloffame%202022-2023/PR%20Head%20-%20Juilee%20Patil.jpg" },
+      { "role": "Creative Head", "name": "Pranali Gade", "image": "assets/images/halloffame%202022-2023/Creative%20Head%20-%20Pranali%20Gade.jpg" },
+      { "role": "Digital Head", "name": "Anuj Howal", "image": "assets/images/halloffame%202022-2023/Digital%20Head%20-%20Anuj%20Howal.jpg" },
+      { "role": "Cultural Head", "name": "Sangram Nimbalkar", "image": "assets/images/halloffame%202022-2023/Cultural%20Head%20-%20Sangram%20Nimbalkar.jpg" },
+      { "role": "Technical Head", "name": "Mahesh More", "image": "assets/images/halloffame%202022-2023/Technical%20Head%20-%20%20Mahesh%20More.jpg" },
+      { "role": "Sports Head (F)", "name": "Aasavari Waghmare", "image": "assets/images/halloffame%202022-2023/Sports%20Head%20(F)%20-%20Aasavari%20Waghmare.jpg" },
+      { "role": "Sports Head", "name": "Vishwesh Patil", "image": "assets/images/halloffame%202022-2023/Sports%20Head%20-%20Vishwesh%20Patil.jpg" }
+    ]
+  },
+  "2021-22": {
+    "core": [
+      { "role": "Vice President", "name": "Shraddha Pasilkar", "image": "assets/images/halloffame%202021-2022/Vice%20President%20-%20Shraddha%20Pasilkar.jpg" },
+      { "role": "President", "name": "Ashutosh Mahendra Pathak", "image": "assets/images/halloffame%202021-2022/President%20-%20Ashutosh%20Mahendra%20Pathak.jpg" },
+      { "role": "Vice President", "name": "Ashutosh Pandey", "image": "assets/images/halloffame%202021-2022/Vice%20President%20-%20Ashutosh%20Pandey.jpg" }
+    ],
+    "departments": [
+      { "role": "Technical Head", "name": "Nikhil Kumar", "image": "assets/images/halloffame%202021-2022/Technical%20Head%20-%20Nikhil%20Kumar.jpg" },
+      { "role": "Digital Head", "name": "Surajbhan Vishwakarma", "image": "assets/images/halloffame%202021-2022/Digital%20Head%20-%20Surajbhan%20Vishwakarma.jpg" },
+      { "role": "PR Head", "name": "Nirav Gadakh", "image": "assets/images/halloffame%202021-2022/PR%20Head%20-%20Nirav%20Gadakh.jpg" },
+      { "role": "Creative Head", "name": "Sejal Mhatre", "image": "assets/images/halloffame%202021-2022/Creative%20Head%20-%20Sejal%20Mhatre.jpg" },
+      { "role": "Cultural Head", "name": "Samrat Sinhadeb", "image": "assets/images/halloffame%202021-2022/Cultural%20Head%20-%20Samrat%20Sinhadeb.jpg" }
+    ]
+  },
+  "2019-20": {
+    "core": [
+      { "role": "Vice President", "name": "Shruti Gangurde", "image": "assets/images/halloffame%202019-2020/Vice%20President%20-%20Shruti%20Gangurde.jpg" },
+      { "role": "President", "name": "Saurabh Pawaskar", "image": "assets/images/halloffame%202019-2020/President%20-%20%20Saurabh%20Pawaskar.jpg" },
+      { "role": "Vice President", "name": "Rutuparna Kale", "image": "assets/images/halloffame%202019-2020/Vice%20President%20-%20Rutuparna%20Kale.jpg" },
+      { "role": "Treasurer", "name": "Rohit Kurane", "image": "assets/images/halloffame%202019-2020/Treasurer%20-%20Rohit%20Kurane.jpg" }
+    ],
+    "departments": [
+      { "role": "Technical Head", "name": "Chirag Kadam", "image": "assets/images/halloffame%202019-2020/Technical%20Head%20-%20Chirag%20Kadam.jpg" },
+      { "role": "Digital Head", "name": "Sagar Nikam", "image": "assets/images/halloffame%202019-2020/Digital%20Head%20-%20Sagar%20Nikam.jpg" },
+      { "role": "PR & Marketing Head", "name": "Atul Dighe", "image": "assets/images/halloffame%202019-2020/PR%20%26%20Marketing%20Head%20-%20Atul%20Dighe.jpg" },
+      { "role": "Creative Head", "name": "Dinesh Swami", "image": "assets/images/halloffame%202019-2020/Creative%20Head%20-%20Dinesh%20Swami.jpg" },
+      { "role": "Cultural Head", "name": "Pranay Gurram", "image": "assets/images/halloffame%202019-2020/Cultural%20Head%20-%20Pranay%20Gurram.jpg" },
+      { "role": "Sports Head (F)", "name": "Sakshi Chaudhari", "image": "assets/images/halloffame%202019-2020/Sports%20Head%20(F)%20-%20Sakshi%20Chaudhari.jpg" },
+      { "role": "Sports Head", "name": "Vedant Deshpande", "image": "assets/images/halloffame%202019-2020/Sports%20Head%20-%20Vedant%20Deshpande.jpg" }
+    ]
+  }
+}

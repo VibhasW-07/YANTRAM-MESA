@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsors | YANTRAM - MESA</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        michroma: ['Michroma', 'sans-serif'],
+                        space: ['Space Grotesk', 'sans-serif'],
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        nero: '#1a1a1a',
+                        charcoal: '#222222',
+                        arancio: '#E31E24',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-nero text-white font-inter overflow-x-hidden pt-20 md:pt-24">
+
+    <!-- Navigation -->
+    <header id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 bg-nero border-b border-white/10">
+        <div class="w-full px-4 md:px-8 h-20 md:h-24 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center text-xl md:text-2xl font-michroma font-bold text-white transition-colors group [-webkit-text-stroke:1px_white]">
+                    <img src="assets/images/white%20Yantram%20logo%20.png" alt="Yantram Logo" class="h-10 md:h-16 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity mr-3 md:mr-4">
+                    <span class="group-hover:text-arancio transition-colors leading-none pt-1">YANTRAM<span class="text-arancio"> - MESA</span></span>
+                    <img src="assets/images/MESA%20White%20Logo.png" alt="MESA Logo" class="h-10 md:h-16 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity ml-1 md:-ml-1">
+                </a>
+                <a href="https://bvcoenm.edu.in/" target="_blank" rel="noopener noreferrer" class="flex items-center">
+                    <img src="assets/images/Bharati_logo_clg.png" alt="Bharati Logo" class="h-20 md:h-28 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity ml-4 md:ml-8 border-l border-white/20 pl-4 md:pl-8">
+                </a>
+            </div>
+
+            <nav class="hidden md:flex gap-8 items-center">
+                <a href="index.html" class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Home</a>
+                <a href="about.html" class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">About Us</a>
+                <a href="team.html" class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Meet Our Team</a>
+                <a href="events.html" class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Events</a>
+                <a href="sponsors.html" class="nav-link text-sm font-semibold tracking-widest transition-colors uppercase text-arancio border border-arancio shadow-[0_0_10px_rgba(227,30,36,0.6)] px-4 py-2 rounded-md">Sponsors</a>
+                <a href="index.html#contact" class="nav-link text-sm font-semibold tracking-widest hover:text-arancio transition-colors uppercase">Contact Us</a>
+            </nav>
+
+            <button class="md:hidden text-white hover:text-arancio" aria-label="Toggle Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sponsors Section -->
+        <section class="w-full bg-[radial-gradient(ellipse_at_center,_var(--color-charcoal)_0%,_#000_100%)] shadow-[inset_0_0_150px_rgba(0,0,0,1)] min-h-[calc(100vh-6rem)] flex items-center justify-center pt-8 pb-16 relative">
+            <div class="absolute inset-0 bg-black/20 pointer-events-none"></div>
+            <div class="w-full h-full flex flex-col items-center justify-center relative z-10">
+                <h2 class="text-4xl md:text-5xl font-michroma font-normal text-white mb-12 tracking-wide text-center uppercase">
+                    Our Sponsors
+                </h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 md:gap-8 w-full max-w-7xl mx-auto px-6" id="sponsors-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-charcoal border-t border-arancio pt-16 pb-8 mt-auto">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm font-space tracking-wide">
+                    &copy; 2026 YANTRAM - MESA. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" type="module"></script>
+    <script src="js/sponsors-page.js" type="module"></script>
+</body>
+</html>
