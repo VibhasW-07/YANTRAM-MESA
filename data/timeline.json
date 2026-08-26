@@ -7,7 +7,7 @@
       "members": "50+",
       "events": "2"
     },
-    "image": "assets/images/history_flow/2016-2017.jpg"
+    "image": "assets/imagesmesa/history_flow/2016-2017.jpg"
   },
   {
     "year": "2018-2019",
@@ -17,7 +17,7 @@
       "footfall": "500+",
       "vehicles": "30+"
     },
-    "image": "assets/images/history_flow/2018-2019.jpg"
+    "image": "assets/imagesmesa/history_flow/2018-2019.jpg"
   },
   {
     "year": "2021-2022",
@@ -27,7 +27,7 @@
       "participants": "1000+",
       "workshops": "5"
     },
-    "image": "assets/images/history_flow/2021-2022.jpg"
+    "image": "assets/imagesmesa/history_flow/2021-2022.jpg"
   },
   {
     "year": "2023-2024",
@@ -37,7 +37,7 @@
       "bikers": "400+",
       "cars": "80+"
     },
-    "image": "assets/images/history_flow/2023-2024.jpg"
+    "image": "assets/imagesmesa/history_flow/2023-2024.jpg"
   },
   {
     "year": "2026-2027",
@@ -47,6 +47,6 @@
       "footfall": "3000+",
       "exhibitors": "150+"
     },
-    "image": "assets/images/history_flow/2026-2027.jpg"
+    "image": "assets/imagesmesa/history_flow/2026-2027.jpg"
   }
 ]
