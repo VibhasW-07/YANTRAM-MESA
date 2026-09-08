@@ -144,10 +144,21 @@ body {
 
 /* Gallery Styles */
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+  column-count: 1;
+  column-gap: 1.5rem;
   padding-top: 2rem;
+}
+
+@media (min-width: 640px) {
+  .gallery-grid {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-grid {
+    column-count: 3;
+  }
 }
 
 .gallery-item {
@@ -158,6 +169,10 @@ body {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   background-color: var(--color-charcoal);
   border: 1px solid rgba(255, 255, 255, 0.05);
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  width: 100%;
 }
 
 .gallery-item:hover {
@@ -168,14 +183,12 @@ body {
 
 .gallery-item img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  display: block;
   object-fit: cover;
   transition: transform 0.6s ease-out;
-  /* Starting filter can be standard custom-grayscale if desired, but we override here for specificity */
-  filter: grayscale(80%) contrast(110%);
 }
 
 .gallery-item:hover img {
   transform: scale(1.1);
-  filter: grayscale(0%) contrast(100%);
 }
